@@ -2,13 +2,14 @@ package com.example.employee;
 
 
 public class Employee {
-    //syntax in Main: "employee1.hashCode == employee2.hashCode()"
+
     public int hashCode;
+    
     //private fields to store employee data
     private int id;
     private String name;
 
-    //default constructor
+
     public Employee(){
 
     }
